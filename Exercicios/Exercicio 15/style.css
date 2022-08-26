@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+h1 {
+    color: red;
+    background-color: green;
+    text-decoration: underline;
+}

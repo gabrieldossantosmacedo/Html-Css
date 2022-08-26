@@ -1,0 +1,3 @@
+exercico 07 de Html
+fala como a semantica influencia em seus codigos, neste caso trata de codigos obseletos que hoje em dia ja nao sao usados mais para formatação
+de tags Html. ele fez um exemplo para mostrar as tags que estao obsoletas hoje em html.

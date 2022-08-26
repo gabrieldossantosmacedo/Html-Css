@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em varios positivos diferentes ou simplesmente aumente o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Grande">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em html</p>
+    <audio src="Midias/Play Dead - NEFFEX.mp3" autoplay controls></audio>
+    <!--OU-->
+    <h2>Reproduzindo audio etapa 2</h2>
+    <audio autoplay controls loop>
+        <source src="Midias/Play Dead - NEFFEX.mp3" type="audio/mpeg">
+        <p>Infelizmente nao foi possivel recarregar seu audio. <a href="Midias/Play Dead - NEFFEX.mp3">clique aqui para baixar</a></p>
+    </audio>
+</body>
+</html>
